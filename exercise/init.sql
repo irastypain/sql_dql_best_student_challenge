@@ -1,6 +1,6 @@
 CREATE TABLE students (
   id integer,
-  name varchar(7)
+  name character varying
 );
 
 INSERT INTO students (id, name) VALUES
@@ -10,7 +10,7 @@ INSERT INTO students (id, name) VALUES
 
 CREATE TABLE courses (
   id integer,
-  name varchar(23)
+  name character varying
 );
 
 INSERT INTO courses (id, name) VALUES
